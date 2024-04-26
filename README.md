@@ -13,12 +13,6 @@ _Create workflows that enable you to use Continuous Integration (CI) for your pr
 
 </header>
 
-<!--
-  <<< Author notes: Step 3 >>>
-  Start this step by acknowledging the previous step.
-  Define terms and link to docs.github.com.
--->
-
 ## Step 3: Upload test reports
 
 _The workflow has finished running! :sparkles:_
@@ -52,7 +46,7 @@ To upload artifacts to the artifact storage, we can use an action built by GitHu
    ```
 
 1. Commit your change to this branch.
-1. Wait about 20 seconds and then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/actions) will automatically update to the next step.
+
 
 Like the upload action to send artifacts to the storage, you can use the download action to download these previously uploaded artifacts from the `build` job: [`actions/download-artifact`](https://github.com/actions/download-artifact). For brevity, we'll skip that step for this course.
 
